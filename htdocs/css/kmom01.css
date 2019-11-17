@@ -14,3 +14,253 @@
 .rm-navbar-max {
     display: none;
 }
+
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+html {
+    font-family: "Palatino";
+    background-color: #d2d4d4;
+}
+
+p {
+    padding: 1em;
+}
+
+.wrap-all {
+    max-width: calc(1200px + 4em);
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+ /* Header –––––––––––––––––––––––––––– */
+
+ header a {
+     text-decoration: none;
+ }
+
+ header li {
+     list-style: none;
+     display: inline-block;
+     padding: 1em;
+ }
+
+ .outer-wrap-header {
+     margin: 0;
+ }
+
+.region-header-col-1 {
+    display: inline-block;
+    float: left;
+    padding-right: 50px;
+}
+
+.region-header-col-2 {
+    display: block;
+    text-align: center;
+}
+
+.region-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.region-header {
+    background-color: #3b3d3d;
+}
+
+.region-header a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.site-logo img {
+    display: none;
+}
+
+.region-flash {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Main –––––––––––––––––––––––––––– */
+
+main {
+    background-color: #fff;
+    width: 80vw;
+    margin: 0 auto;
+    max-width: calc(900px + 4em)
+}
+
+main.has-sidebar {
+    width: calc(100vw - 300px);
+}
+
+main.has-sidebar-right {
+    margin-left: 0;
+}
+
+main.has-sidebar-left {
+    margin-right: 0;
+}
+
+.breadcrumb-list ul {
+    padding-left: 5em;
+    list-style-type: none;
+}
+
+.breadcrumb-list ul a {
+    color: black;
+    text-decoration: none;
+}
+
+li.section-header {
+    font-weight: bold;
+    font-size: 1em;
+    border-bottom: 1px solid #000;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+li.selected {
+    font-weight: bold;
+}
+
+li.level-1 {
+    padding-left: 0.75em;
+    text-decoration: none;
+}
+
+li.level-2 {
+    padding-left: 1em;
+    text-decoration: none;
+}
+
+li.section-header a,
+li.level-0 a,
+li.level-1 a,
+li.level-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+li.section-header a:hover,
+li.level-0 a:hover,
+li.level-1 a:hover,
+li.level-2 a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.fullwidth img {
+    width: 100%;
+}
+
+.wrap-sidebar {
+    width: 300px;
+    background-color: #fff;
+}
+
+.wrap-sidebar .block {
+    padding: 2em;
+}
+
+.region-sidebar-right {
+    float: right;
+    display: inline;
+}
+
+.region-sidebar-left {
+    float: left;
+    display: inline;
+}
+
+.next-previous {
+    justify-content: space-between;
+    padding: 1em;
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.next-previous a {
+    text-decoration: none;
+    color: black;
+}
+
+.next-previous a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.next {
+    display: block;
+}
+
+ul.toc li {
+    padding: 0.5em;
+    font-size: 0.8em;
+    list-style: none;
+}
+
+article {
+    padding: 2em;
+    background-color: beige;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.has-sidebar-right article {
+    float: left;
+    margin-left: 10px;
+}
+
+.row {
+    display: block;
+}
+
+.figure {
+    float: right;
+    margin: 1em;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+/* Footer –––––––––––––––––––––––––––– */
+
+.outer-wrap-footer {
+    display: block;
+    width: 100%;
+    background-color: #3b3d3d;
+    clear: both;
+    color: white;
+    margin-top: 25em;
+}
+
+.site-footer {
+    text-align: center;
+}
+
+.footer-column-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    display: block;
+    padding: 2em;
+}
