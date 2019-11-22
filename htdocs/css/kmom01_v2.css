@@ -1,0 +1,337 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #fff;
+}
+body {
+  margin: 10px;
+  padding: 0;
+  color: #333;
+  background-color: #999;
+  font: 100.01%/1 "Palatino";
+}
+/* Header –––––––––––––––––––––––––––– */
+header a {
+  text-decoration: none;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 1em;
+}
+/* Main –––––––––––––––––––––––––––– */
+main {
+  background-color: inherit;
+  margin: 0 auto;
+  min-height: 20em;
+}
+article {
+  padding: 2em;
+  background-color: beige;
+  min-height: 15em;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: calc(1200px + 4em);
+  margin: 0 auto;
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+p {
+  padding: 1em;
+}
+/* Header –––––––––––––––––––––––––––– */
+.site-logo img {
+  display: none;
+}
+.outer-wrap-header {
+  margin: 0;
+  background-color: #3b3d3d;
+  overflow: visible;
+  color: #fff;
+}
+.outer-wrap-header:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.inner-wrap-header {
+  max-width: 100%;
+  background-color: #3b3d3d;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  width: 20%;
+  float: left;
+}
+.region-header-col-1 {
+  display: inline-block;
+  padding-right: 50px;
+}
+.region-header-col-2 {
+  width: 60%;
+  display: block;
+  text-align: center;
+  float: left;
+}
+.region-header a {
+  text-decoration: none;
+  color: #fff;
+}
+.region-header a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.region-flash {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+img {
+  max-width: 100%;
+}
+/* Main –––––––––––––––––––––––––––– */
+.breadcrumb-list ul {
+  padding-left: 5em;
+  list-style-type: none;
+}
+.breadcrumb-list ul a {
+  color: black;
+  text-decoration: none;
+}
+li.section-header {
+  font-weight: bold;
+  font-size: 1em;
+  border-bottom: 1px solid #000;
+  margin-top: 10px;
+  text-decoration: none;
+}
+li.selected {
+  font-weight: bold;
+}
+li.level-1 {
+  padding-left: 0.75em;
+  text-decoration: none;
+}
+li.level-2 {
+  padding-left: 1em;
+  text-decoration: none;
+}
+li.section-header a,
+li.level-0 a,
+li.level-1 a,
+li.level-2 a {
+  text-decoration: none;
+  color: #fff;
+}
+li.section-header a:hover,
+li.level-0 a:hover,
+li.level-1 a:hover,
+li.level-2 a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.wrap-sidebar .block {
+  padding: 2em;
+}
+.region-sidebar-right,
+.region-sidebar-left {
+  background-color: beige;
+  overflow: auto;
+}
+.region-main {
+  width: 100%;
+  margin-top: 1%;
+  float: left;
+  overflow: auto;
+}
+.region-main.has-sidebar {
+  width: 70%;
+  margin-left: 0;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 60%;
+}
+.region-sidebar-right,
+.region-sidebar-left {
+  width: 30%;
+  margin-top: 1%;
+  float: left;
+  background-color: #8a8f8f;
+  color: #fff;
+}
+.region-sidebar-right.has-sidebar-left,
+.region-sidebar-left.has-sidebar-right {
+  width: 20%;
+}
+.next-previous {
+  justify-content: space-between;
+  padding: 1em;
+  flex-direction: row-reverse;
+  display: flex;
+  background-color: #575b5b;
+  color: #fff;
+}
+.region-sidebar-right a,
+.region-sidebar-left a,
+.next-previous a,
+.footer-column a {
+  text-decoration: underline;
+  color: #fff;
+}
+.region-sidebar-right a:hover,
+.region-sidebar-left a:hover,
+.next-previous a:hover,
+.footer-column a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.next {
+  display: block;
+}
+ul.toc li {
+  padding: 0.5em;
+  font-size: 0.8em;
+  list-style: none;
+}
+.row {
+  display: block;
+}
+article,
+.figure,
+.figcaption {
+  overflow: auto;
+}
+.figure {
+  float: right;
+  margin: 1em;
+}
+figcaption {
+  font-style: italic;
+}
+/* Footer –––––––––––––––––––––––––––– */
+.outer-wrap-footer {
+  display: block;
+  width: 100%;
+  background-color: #3b3d3d;
+  clear: both;
+  color: #fff;
+  margin-top: 25em;
+}
+.site-footer {
+  text-align: center;
+}
+.footer-column-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-column {
+  width: 33%;
+  float: left;
+  margin: 10px 5px 5px 5px;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Navbar
+ */
+@media screen and (max-width: 960px) {
+  .rm-desktop a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 15%;
+  }
+  .region-header-col-2 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .rm-desktop {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

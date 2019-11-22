@@ -1,0 +1,46 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #424242;
+@bgColorBody: #999;
+@colorBody: #333;
+@fontFamilyBody: "Palatino";
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 10px;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+}
+
+ /* Header –––––––––––––––––––––––––––– */
+
+header a {
+    text-decoration: none;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 1em;
+}
+
+/* Main –––––––––––––––––––––––––––– */
+
+main {
+    background-color: inherit;
+    margin: 0 auto;
+    min-height: 20em;
+}
+
+article {
+    padding: 2em;
+    background-color: beige;
+    min-height: 15em;
+}
