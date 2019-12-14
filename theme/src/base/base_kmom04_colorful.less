@@ -1,0 +1,45 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #424242;
+@bgColorBody: #999;
+@colorBody: #fff;
+// @fontFamilyBody: "Palatino";
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    color: @colorBody;
+    background-color: @bgColorBody;
+    // font: 100.01%/1 @fontFamilyBody;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+ /* Header –––––––––––––––––––––––––––– */
+
+header a {
+    text-decoration: none;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* Main –––––––––––––––––––––––––––– */
+
+main {
+    background-color: inherit;
+    min-height: 20em;
+}
+
+article {
+    background-color: rgba(255, 0, 0, 0.75);
+    min-height: 15em;
+}
