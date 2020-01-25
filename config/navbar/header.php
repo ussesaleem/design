@@ -78,5 +78,10 @@ return [
             "url" => "rapport",
             "title" => "Utvärdera webbplatsers färgval och känslan de signalerar.",
         ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Dagens bild som blogginlägg.",
+        ],
     ],
 ];

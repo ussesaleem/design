@@ -15,7 +15,7 @@ Min me-sida i kursen design
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/profile.jpeg?width=250" class="right" caption="Bild på mig."]
+[FIGURE src="image/profile.jpeg?w=250" caption="Bild på mig." class="right"]
 
 Detta är min me-sida i kursen. Denna sida innehåller en presentation av mig själv. Sidan kommer att underhållas under hela kursen och uppdateras  efter hand och behov.
 
