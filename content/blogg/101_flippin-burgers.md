@@ -26,11 +26,11 @@ Upplevelsen {#anchor-hit}
 -----------------------------------
 Första gången man besöker en hamburgarrestaurang ska man inte välja den mest komplicerade burgaren. Det bästa är att antingen välja deras signaturburgare, som i de bra restaurangerna heter samma som restaurangen, eller så tar man en hamburgare/cheeseburgare som samtliga garanterat har på sin meny.
 
-[FIGURE src="http://localhost:8080/dbwebb/design/me/redovisa/htdocs/cimage/img.php?src=FlippinBurgers.jpeg&w=800&crop-to-fit&area=25,0,10,10&sharpen" caption="En signatur-Flippin burgare från Flippin' Burgers." class="center"]
+[FIGURE src="image/FlippinBurgers.jpeg&w=800&crop-to-fit&area=25,0,10,10&sharpen" caption="En signatur-Flippin burgare från Flippin' Burgers." class="center"]
 
 På Flippin' Burgers serverar de hamburgaren i en korg med både hamburgarna och pommes i samma. Detta har sina för- och nackdelar. Fördelen är att det inte tar så mycket plats i det trånga utrymmet på restaurangen. Nackdelen är dock att pommes fritesen är i kontakt med hamburgaren och blir fettiga.
 
-[FIGURE src="http://localhost:8080/dbwebb/design/me/redovisa/htdocs/cimage/img.php?src=FlippinBurgers.jpeg&w=300&crop-to-fit&area=28,45,15,10&sharpen&f=contrast,-15" caption="En 'naken' burgare." class="right w33"]
+[FIGURE src="image/FlippinBurgers.jpeg&w=300&crop-to-fit&area=28,45,15,10&sharpen&f=contrast,-15" caption="En 'naken' burgare." class="right w33"]
 
 Likt många andra restauranger förväntade jag mig att hamburgaren skulle serveras i ett plasthölje för att upplevelsen inte skulle innebära fettiga fingrar, dock serveras hamburgarna på Flippin utan detta.
 
@@ -38,7 +38,7 @@ Hamburgaren i sig utger sig för att vara väldigt välkomnande i händerna, med
 
 ### Betyg {#vad-som}
 
-[FIGURE src="http://localhost:8080/dbwebb/design/me/redovisa/htdocs/cimage/img.php?src=FlippinBurgers.jpeg&w=200&crop-to-fit&area=28,0,10,50&convolve=sharpen-alt" caption="Pommes frites serveras i samma korg." class="left w25"]
+[FIGURE src="image/FlippinBurgers.jpeg&w=200&crop-to-fit&area=28,0,10,50&convolve=sharpen-alt" caption="Pommes frites serveras i samma korg." class="left w25"]
 
 Upplevelsen av restaurangen i överlag var spännande, dock väldigt oviss. På grund av det höga trycket av kunder kan man bara anta att det ska vara en minnesvärd upplevelse när man väl kommer in och får ett bord.
 
